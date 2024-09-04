@@ -1,9 +1,10 @@
 import React from "react";
 import about from "../../assets/yoga1.jpg";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className="section" id="about">
+    <div className="section" >
       <div className="grid md:grid-cols-2 gap-8 place-items-center">
         <div className="border-[3px] border-solid border-Teal rounded-lg">
           <img src={about} alt="" className="p-4" />
@@ -20,7 +21,9 @@ const About = () => {
             Additionally, I'm learning to facilitate systemic constellations. I've been on my own healing journey since 2016 and been passionate about it ever since. Besides psychotherapy & healing, I love travelling, cultural exchanges, writing poetry and immersing myself in water and nature.
             .
           </p>
+         <Link to={`/about`}>
           <button className="py-3 px-6 text-sm border border-solid bg-yellow border-gray rounded-lg">Learn More</button>
+         </Link>
         </div>
       </div>
     </div>

@@ -1,11 +1,54 @@
 import React, { useEffect, useState } from "react";
-import { navLinks } from "../../Data";
+// import { navLinks } from "../../Data";
 import { HiMenuAlt1, HiX } from "react-icons/hi";
 import MobileNavLinks from "./MobileNavLinks";
-import NavLink from "./NavLink";
+// import NavLink from "./NavLink";
 import { motion } from "framer-motion";
+import { NavLink } from "react-router-dom";
 
-const Navbar = () => {
+
+
+
+export const NavbarLinks = [
+    {
+        // id: 1,
+        // href: "home",
+        // link: "Home",
+        name: "Home",
+        link: "/",
+    },
+    {
+        // id: 2,
+        // href: "about",
+        // link: "About Me",
+        name: "About",
+        link: "/about",
+    },
+    {
+        // id: 3,
+        // href: "coachings",
+        // link: "Inner Deep Dive",
+        name: "Inner Deep Dive",
+        link: "/deep",
+    },
+    {
+        // id: 4,
+        // href: "group",
+        // link: "Sessions",
+        name: "Sessions",
+        link: "/care",
+    },
+    {
+        // id: 5,
+        // href: "contact",
+        // link: "Contact",
+        name: "Contact",
+        link: "/contact",
+    },
+];
+
+
+const Navbar = ({ handleOrderPopup }) => {
   const [toggle, setToggle] = useState(false);
   const [active, setActive] = useState(null);
   useEffect(() => {
@@ -27,6 +70,7 @@ const Navbar = () => {
             active ? "py-2 transition-all duration-300" : "py-4"
           } container mx-auto flex items-center justify-between px-2`}
         >
+          {/* Mobile Hamburger icon */}
           <div className="flex items-center gap-4">
             <HiMenuAlt1
               className="text-3xl sm:hidden cursor-pointer"
@@ -36,12 +80,41 @@ const Navbar = () => {
               TherZonex
             </div>
           </div>
-          <div className="sm:flex items-center hidden">
-            {navLinks.map((navLink) => {
+          <div>
+            {/* {NavbarLinks.map((navLink) => {
               return <NavLink key={navLink.id} {...navLink} />;
-            })}
+            })} */}
+            <ul className="sm:flex items-center gap-6 hidden">
+              <li className="font-bold py-4">
+                <NavLink to="/" activeClassName="active">
+                  Home
+                </NavLink>
+              </li>
+              <li className="font-bold py-4">
+                <NavLink to="/about" >
+                  About Me
+                </NavLink>
+              </li>
+              <li className="font-bold py-4">
+                <NavLink to="/deep" >
+                  Inner Deep Dive
+                </NavLink>
+              </li>
+              <li className="font-bold py-4">
+                <NavLink to="/care" >
+                 Sessions
+                </NavLink>
+              </li>
+              <li className="font-bold py-4">
+                <NavLink to="/contact" >
+                  Contact
+                </NavLink>
+              </li>
+            </ul>
           </div>
-          <button className="py-3 px-6 font-bold text-sm bg-Teal border border-solid rounded-lg border-gray">
+          <button className="py-3 px-6 font-bold text-sm bg-Teal border border-solid rounded-lg border-gray" onClick={() => {
+                  handleOrderPopup();
+                }}>
             Quantum Leap
           </button>
           {toggle && (
@@ -51,7 +124,7 @@ const Navbar = () => {
               transition={{ duration: 0.3 }}
               className="fixed h-full w-96 top-0 left-0 z-20 bg-Teal text-white flex flex-col justify-center items-center shadow-lg gap-8 py-8"
             >
-              {navLinks.map((navLink) => {
+              {NavbarLinks.map((navLink) => {
                 return (
                   <MobileNavLinks
                     key={navLink.id}

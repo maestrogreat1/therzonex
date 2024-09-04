@@ -4,6 +4,7 @@ import { courses } from "../../../Data";
 import Categories from "./Categories";
 import Coach from "./Coach";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Coachings = () => {
   const container = {
@@ -38,18 +39,20 @@ const Coachings = () => {
         </div>
 
         <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto mt-12">
-          <div className="font-bold text-sm text-Teal mb-4 mt-10 mx-auto items-center justify-items-center">
+          <p className="font-bold text-sm text-Teal mb-4 mt-10 mx-auto items-center justify-items-center">
             {" "}
             What are the guaranteed safety measures
             <br /> for your inner Deep Dive?
-          </div>
+          </p>
           <span className="font-bold text-sm">Empathy:</span> Seeking help is a
           sign of strength. Personal growth can be challenging, but you want to
           face it alone. I provide a safe space to process emotions at your own
           pace. <br /> <br />
-          <button className="py-3 px-6 text-sm border border-solid bg-yellow border-gray rounded-lg">
-            Learn More
-          </button>
+          <Link to={`/deep`}>
+            <button className="py-3 px-6 text-sm border border-solid bg-yellow border-gray rounded-lg">
+              Learn More
+            </button>
+          </Link>
         </p>
       </div>
       <motion.div

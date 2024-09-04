@@ -1,7 +1,7 @@
 import { FiPenTool } from "react-icons/fi";
-import { FaLaptopCode } from "react-icons/fa";
-import { BsBarChartLine } from "react-icons/bs";
-import { MdOutlineScience } from "react-icons/md";
+import { FaHandHoldingWater } from "react-icons/fa";
+import { MdAir } from "react-icons/md";
+import { FaChildReaching } from "react-icons/fa6";
 
 import courses1 from "./assets/gallery-31.png"
 import courses2 from "./assets/gallery-31.png"
@@ -19,54 +19,58 @@ import logo4 from "./assets/logTravel.png"
 import logo5 from "./assets/logTravel.png"
 import logo6 from "./assets/logTravel.png"
 
-export const navLinks = [
-    {
-        id: 1,
-        href: "home",
-        link: "Home",
-    },
-    {
-        id: 2,
-        href: "about",
-        link: "About Me",
-    },
-    {
-        id: 3,
-        href: "coachings",
-        link: "Inner Deep Dive",
-    },
-    {
-        id: 4,
-        href: "group",
-        link: "Sessions",
-    },
-    {
-        id: 5,
-        href: "contact",
-        link: "Contact",
-    },
-];
+// export const navLinks = [
+//     {
+//         // id: 1,
+//         // href: "home",
+//         // link: "Home",
+//         name: "Home",
+//         link: "/",
+//     },
+//     {
+//         // id: 2,
+//         // href: "about",
+//         // link: "About Me",
+//         name: "About",
+//         link: "/about",
+//     },
+//     {
+//         id: 3,
+//         href: "coachings",
+//         link: "Inner Deep Dive",
+//     },
+//     {
+//         id: 4,
+//         href: "group",
+//         link: "Sessions",
+//     },
+//     {
+//         id: 5,
+//         href: "contact",
+//         link: "Contact",
+//     },
+// ];
 
 export const categories = [
     {
         id: 1,
         icon: <FiPenTool />,
-        category: "Design",
+        category: "Re-write",
     },
     {
         id: 2,
-        icon: <FaLaptopCode />,
-        category: "Development",
+        icon: <FaHandHoldingWater />,
+        category: "Serenity",
     },
     {
         id: 3,
-        icon: <BsBarChartLine />,
-        category: "Business",
+        icon: <MdAir />,
+        category: "Refresh",
     },
     {
         id: 4,
-        icon: <MdOutlineScience />,
-        category: "Science",
+        icon: <FaChildReaching />,
+        category: "Reborn",
     },
 ];
 
