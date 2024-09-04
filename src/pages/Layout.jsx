@@ -4,9 +4,10 @@ import React from "react";
 // import { Coaching, Group, Contact } from "../components";
 import Navbar from "../components/Navbar/Navbar";
 
-import OrderPopup from "../components/Orderpopup/Orderpopup";
+// import OrderPopup from "../components/Orderpopup/Orderpopup";
 import Footer from "../components/container/Footer";
 import { Outlet } from "react-router-dom";
+import OrderPopup from "../components/Orderpopup/OrderPopup";
 // import Hero from "../components/container/Hero";
 
 const Layout = () => {
