@@ -1,6 +1,6 @@
 import React from "react";
 import NatureVid from "../assets/video/main.mp4";
-import dive from "../assets/stretchhome.png"
+import dive from "../assets/Images/VanSitWhite.png"
 import { Link } from "react-router-dom";
 
 const Deep = () => {
@@ -93,7 +93,7 @@ const Deep = () => {
             </div>
             <div>
             <div className="border-[3px] border-solid border-Teal rounded-lg ">
-              <img src={dive} alt="" className="p-4" />
+              <img src={dive} alt="" className="p-4 h-[500px]" />
             </div>
             <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto mt-8 font-bold">
                 <span className="font-bold text-sm text-blue-950">

@@ -1,5 +1,6 @@
 import React from "react";
-import about from "../assets/yoga1.jpg";
+import about from "../assets/Images/VAnSunKiss.png";
+import abouts from "../assets/Images/VanTreeLie.png";
 import { Link } from "react-router-dom";
 
 const AboutPage = () => {
@@ -38,7 +39,7 @@ const AboutPage = () => {
         <div className="grid md:grid-cols-2 gap-8 place-items-center">
           <div>
             <div className="border-[3px] border-solid border-Teal rounded-lg ">
-              <img src={about} alt="" className="p-4" />
+              <img src={abouts} alt="" className="p-4" />
             </div>
           </div>
           <div>

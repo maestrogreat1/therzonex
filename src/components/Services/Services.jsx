@@ -1,7 +1,7 @@
 import React from "react";
-import Img1 from "../../assets/yoga1.jpg";
-import Img2 from "../../assets/yoga-group.jpg";
-import Img3 from "../../assets/stretchhome.png";
+import Img1 from "../../assets//Images/VanSeatSmile.png";
+import Img2 from "../../assets/Images/VanWaterSit.png";
+import Img3 from "../../assets/Images/VanSeatWhite.png";
 import { motion } from "framer-motion";
 import ServicesCard from "./ServicesCard";
 

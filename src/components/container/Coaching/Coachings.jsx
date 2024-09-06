@@ -55,6 +55,7 @@ const Coachings = () => {
           </Link>
         </p>
       </div>
+      <Link to={`/deep`}>
       <motion.div
         variants={container}
         initial="hidden"
@@ -65,6 +66,7 @@ const Coachings = () => {
           return <Categories key={category.id} {...category} />;
         })}
       </motion.div>
+      </Link>
     </div>
   );
 };
