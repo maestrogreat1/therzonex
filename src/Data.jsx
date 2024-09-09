@@ -3,14 +3,14 @@ import { FaHandHoldingWater } from "react-icons/fa";
 import { MdAir } from "react-icons/md";
 import { FaChildReaching } from "react-icons/fa6";
 
-import courses1 from "./assets/Images/VanGrassRest.png"
-import courses2 from "./assets/Images/VanSeatGreen.png"
-import courses3 from "./assets/Images/VanStandGreen.png"
-import courses4 from "./assets/Images/VanYogaPose.png"
-import courses5 from "./assets/Images/VanGrasslie.png"
-import courses6 from "./assets/Images/VanBubble.png"
-import courses7 from "./assets/Images/VanSitgreen.png"
-import courses8 from "./assets/Images/VanSeatWhite.png"
+import courses1 from "./assets/Images/VanGrassRests.png"
+import courses2 from "./assets/Images/VanSeatGreens.png"
+import courses3 from "./assets/Images/VanStandGreens.png"
+import courses4 from "./assets/Images/VanYogaPoses.png"
+import courses5 from "./assets/Images/VanGrasslies.png"
+import courses6 from "./assets/Images/VanBubbles.png"
+import courses7 from "./assets/Images/VanSitgreens.png"
+import courses8 from "./assets/Images/VanSeatWhites.png"
 
 import logo1 from "./assets/logTravel.png"
 import logo2 from "./assets/logTravel.png"

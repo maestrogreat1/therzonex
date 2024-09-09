@@ -1,7 +1,7 @@
 import React from "react";
-import Img1 from "../../assets//Images/VanSeatSmile.png";
-import Img2 from "../../assets/Images/VanWaterSit.png";
-import Img3 from "../../assets/Images/VanSeatWhite.png";
+import Img1 from "../../assets//Images/VanSeatSmiles.png";
+import Img2 from "../../assets/Images/VanWaterSits.png";
+import Img3 from "../../assets/Images/VanSeatWhites.png";
 import { motion } from "framer-motion";
 import ServicesCard from "./ServicesCard";
 

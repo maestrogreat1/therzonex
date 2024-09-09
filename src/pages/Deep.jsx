@@ -1,6 +1,6 @@
 import React from "react";
 import NatureVid from "../assets/video/main.mp4";
-import dive from "../assets/Images/VanSitWhite.png"
+import dive from "../assets/Images/VanSitWhites.png"
 import { Link } from "react-router-dom";
 
 const Deep = () => {

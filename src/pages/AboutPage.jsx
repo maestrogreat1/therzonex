@@ -1,6 +1,6 @@
 import React from "react";
-import about from "../assets/Images/VAnSunKiss.png";
-import abouts from "../assets/Images/VanTreeLie.png";
+import about from "../assets/Images/VAnSunKisss.png";
+import abouts from "../assets/Images/VanTreeLies.png";
 import { Link } from "react-router-dom";
 
 const AboutPage = () => {

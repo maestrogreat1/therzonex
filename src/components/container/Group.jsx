@@ -1,8 +1,8 @@
 import React from "react";
-import group1 from "../../assets/Images/VanSeatSmile.png";
-import group2 from "../../assets/Images/VanWaterSit.png";
-import { accordions } from "../../Data";
-import Accordion from "./Accordion";
+import group1 from "../../assets/Images/VanSeatSmiles.png";
+import group2 from "../../assets/Images/VanWaterSits.png";
+// import { accordions } from "../../Data";
+// import Accordion from "./Accordion";
 import { Link } from "react-router-dom";
 const Group = () => {
   return (

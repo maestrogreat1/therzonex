@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../../assets/Images/VanBubble.png";
+import hero from "../../assets/Images/VanBubbles.png";
 import { Link } from "react-router-dom";
 // import { logos } from '../../Data';
 // import { motion } from 'framer-motion';

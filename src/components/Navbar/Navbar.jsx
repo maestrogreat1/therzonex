@@ -62,7 +62,7 @@ const Navbar = ({ handleOrderPopup }) => {
   return (
     <div
       className={`${
-        active ? "shadow-lg bg-Solitude" : ""
+        active ? "shadow-lg bg-Solitude mb-10" : ""
       } fixed w-full top-0 left-0 z-20`}
     >
       <div>
@@ -78,7 +78,7 @@ const Navbar = ({ handleOrderPopup }) => {
               onClick={() => setToggle(true)}
             />
             <div className="text-xl text-Teal uppercase tracking-wide font-bold">
-              <img className="h-16" src={logo} alt="" />
+              <img className="h-20" src={logo} alt="" />
             </div>
           </div>
           <div>
