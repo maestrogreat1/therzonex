@@ -5,6 +5,7 @@ import MobileNavLinks from "./MobileNavLinks";
 // import NavLink from "./NavLink";
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
+import logo from "../../assets/Images/thelog.png"
 
 
 
@@ -77,7 +78,7 @@ const Navbar = ({ handleOrderPopup }) => {
               onClick={() => setToggle(true)}
             />
             <div className="text-xl text-Teal uppercase tracking-wide font-bold">
-              TherZonex
+              <img className="h-16" src={logo} alt="" />
             </div>
           </div>
           <div>
