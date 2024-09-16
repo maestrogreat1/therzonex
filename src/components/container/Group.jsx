@@ -25,8 +25,8 @@ const Group = () => {
             </button>
           </Link>
         </div>
-        <div className="p-4 md:w-3/4 sm:row-start-1">
-          <img src={group1} alt="" />
+        <div className="p-4 md:w-3/4 sm:row-start-1 border-[3px] border-solid border-Teal rounded-lg">
+          <img className="h-[100%]"  src={group1} alt="" />
         </div>
         <div className="pl-5">
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem]">
@@ -44,8 +44,8 @@ const Group = () => {
             </button>
           </Link>
         </div>
-        <div className="p-4 md:w-3/4">
-          <img src={group2} alt="" />
+        <div className="p-4 md:w-3/4 md:h-3/4 border-[3px] border-solid border-Teal rounded-lg">
+          <img className="h-[100%]" src={group2} alt="" />
         </div>
       </div>
       {/* <div className='text-center my-8 font-bold sm:text-[1.875rem] text-[1.5rem]'>

@@ -1,6 +1,7 @@
 import React from "react";
 import hero from "../../assets/Images/VanBubbles.png";
 import { Link } from "react-router-dom";
+
 // import { logos } from '../../Data';
 // import { motion } from 'framer-motion';
 
@@ -25,44 +26,44 @@ const Hero = ({ handleOrderPopup }) => {
   // };
   return (
     <div className="section" id="home">
-      <div className="grid md:grid-cols-2 gap-8 place-items-center">
+      <div className="flex items-center justify-center gap-8 md:mt-12">
         <div>
-          <div className="font-bold text-sm text-Teal mb-4">
+          <div className="font-bold text-xl text-white mb-10 text-center">
             {" "}
-            Take a deep dive into <br /> your inner realms with me <br /> and
+            Take a deep dive into your inner realms with me and
             change your life
           </div>
-          <div className="sm:text-[2.5rem] text-[1.825rem] font-bold">
-            I'm Vanessa <br /> so happy <br /> you are here
+          <div className="flex items-center text-center text-white justify-center sm:text-[2.5rem] text-[1.825rem] font-bold md:mb-6">
+            I'm Vanessa so happy you are here
           </div>
-          <p className="text-sm leading-7 text-gray max-w-sm">
+          <p className="text-center text-lg leading-7 text-white mb-8">
             I'm here to courageously deep dive with you to heal your
             subconscious wounds, enabling you to live life on your own terms and
-            positively influence others. <br /> What lights me up? Helping
+            positively influence others. What lights me up? Helping
             people overcome their fears and blockages and choose what truly
             excites them!
           </p>
-          <div className="mt-6">
+          <div className="flex items-center justify-center mt-6 mb-8">
             <Link to={`/care`}>
-              <button className="px-6 py-3 font-bold text-white bg-Teal rounded-lg mr-4 text-sm">
+              <button className="md:w-60 px-6 py-3 font-bold text-white bg-Teal rounded-lg mr-4 text-sm">
                 Get Started
               </button>
             </Link>
             <Link to={`/about`}>
-              <button className="px-6 py-3 font-bold border border-solid bg-yellow border-gray rounded-lg text-sm">
+              <button className="md:w-60 px-6 py-3 font-bold border border-solid bg-yellow border-gray rounded-lg text-sm">
                 About Me
               </button>
             </Link>
           </div>
         </div>
-        <div className="border-[3px] border-solid border-Teal rounded-lg">
+        {/* <div className="border-[3px] border-solid border-Teal rounded-lg">
           <img className="h-[500px]" src={hero} alt="" />
-        </div>
+        </div> */}
       </div>
-      <div className="mt-5">
-        <p className="text-center text-xl">
+      <div className="mt-3">
+        <p className="text-center text-xl text-white">
           We Offer you the best services using{" "}
-          <span className="text-Teal">
+          <span className="text-white">
             leading industry best practices and standards
           </span>{" "}
         </p>

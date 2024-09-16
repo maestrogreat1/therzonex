@@ -62,7 +62,7 @@ const Navbar = ({ handleOrderPopup }) => {
   return (
     <div
       className={`${
-        active ? "shadow-lg bg-Solitude mb-10" : ""
+        active ? "shadow-lg bg-Teal mb-10" : ""
       } fixed w-full top-0 left-0 z-20`}
     >
       <div>
@@ -85,35 +85,35 @@ const Navbar = ({ handleOrderPopup }) => {
             {/* {NavbarLinks.map((navLink) => {
               return <NavLink key={navLink.id} {...navLink} />;
             })} */}
-            <ul className="sm:flex items-center gap-6 hidden">
-              <li className="font-bold py-4">
+            <ul className="sm:flex items-center gap-6 hidden ">
+              <li className="py-3 px-6 font-bold text-sm bg-Solitude  rounded-lg ">
                 <NavLink to="/" activeClassName="active">
                   Home
                 </NavLink>
               </li>
-              <li className="font-bold py-4">
+              <li className="py-3 px-6 font-bold text-sm bg-Solitude  rounded-lg ">
                 <NavLink to="/about" >
                   About Me
                 </NavLink>
               </li>
-              <li className="font-bold py-4">
+              <li className="shadow-md py-3 px-6 font-bold text-sm bg-Solitude rounded-lg">
                 <NavLink to="/deep" >
                   Inner Deep Dive
                 </NavLink>
               </li>
-              <li className="font-bold py-4">
+              <li className="py-3 px-6 font-bold text-sm bg-Solitude  rounded-lg">
                 <NavLink to="/care" >
                  Sessions
                 </NavLink>
               </li>
-              <li className="font-bold py-4">
+              <li className="py-3 px-6 font-bold text-sm bg-Solitude rounded-lg">
                 <NavLink to="/contact" >
                   Contact
                 </NavLink>
               </li>
             </ul>
           </div>
-          <button className="py-3 px-6 font-bold text-sm bg-Teal border border-solid rounded-lg border-gray" onClick={() => {
+          <button className="py-3 px-6 font-bold text-sm bg-Solitude shadow-lg rounded-lg" onClick={() => {
                   handleOrderPopup();
                 }}>
             Quantum Leap

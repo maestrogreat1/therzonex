@@ -93,7 +93,7 @@ const Deep = () => {
             </div>
             <div>
             <div className="border-[3px] border-solid border-Teal rounded-lg ">
-              <img src={dive} alt="" className="p-4 h-[500px]" />
+              <img src={dive} alt="" className="p-4 h-[500px] border-[3px] border-solid border-Teal rounded-lg" />
             </div>
             <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto mt-8 font-bold">
                 <span className="font-bold text-sm text-blue-950">
