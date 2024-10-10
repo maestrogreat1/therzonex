@@ -22,6 +22,7 @@ const Home = () => {
             autoPlay
             loop
             muted
+            controls={false}
             className="mix-blend-overlay absolute right-0 top-0 h-[700px] w-full object-cover "
           >
             <source src={video} type="video/mp4" />

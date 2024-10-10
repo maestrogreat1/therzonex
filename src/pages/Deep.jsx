@@ -12,6 +12,7 @@ const Deep = () => {
             autoPlay
             loop
             muted
+            controls={false}
             className="absolute right-0 top-0 h-[700px] w-full object-cover z-[-1]"
           >
             <source src={NatureVid} type="video/mp4" />

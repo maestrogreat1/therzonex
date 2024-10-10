@@ -34,9 +34,9 @@ const Footer = () => {
             <a href="" className="text-sm hover:underline">
               Online Consultation
             </a>
-            <a href="" className="text-sm hover:underline">
+            {/* <a href="" className="text-sm hover:underline">
               Personalized Therapy
-            </a>
+            </a> */}
           </div>
         </div>
         <div>
@@ -45,9 +45,9 @@ const Footer = () => {
             <a href="" className="text-sm hover:underline">
               Privacy Policy
             </a>
-            <a href="" className="text-sm hover:underline">
+            {/* <a href="" className="text-sm hover:underline">
               Sitemap
-            </a>
+            </a> */}
             <a href="" className="text-sm hover:underline">
               Terms & Conditions
             </a>

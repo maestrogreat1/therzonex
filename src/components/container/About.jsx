@@ -6,8 +6,8 @@ const About = () => {
   return (
     <div className="section" >
       <div className="grid md:grid-cols-2 gap-8 place-items-center">
-        <div className="border-[3px] border-solid border-Teal rounded-lg">
-          <img src={about} alt="" className="p-4" />
+        <div className=" rounded-lg">
+          <img src={about} alt="" className="p-4 rounded-lg" />
         </div>
         <div>
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">

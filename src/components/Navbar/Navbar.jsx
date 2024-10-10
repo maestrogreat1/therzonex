@@ -101,7 +101,7 @@ const Navbar = ({ handleOrderPopup }) => {
                   Inner Deep Dive
                 </NavLink>
               </li>
-              <li className="py-3 px-6 font-bold text-sm bg-Solitude  rounded-lg">
+              {/* <li className="py-3 px-6 font-bold text-sm bg-Solitude  rounded-lg">
                 <NavLink to="/care" >
                  Sessions
                 </NavLink>
@@ -110,7 +110,7 @@ const Navbar = ({ handleOrderPopup }) => {
                 <NavLink to="/contact" >
                   Contact
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </div>
           <button className="py-3 px-6 font-bold text-sm bg-Solitude shadow-lg rounded-lg" onClick={() => {

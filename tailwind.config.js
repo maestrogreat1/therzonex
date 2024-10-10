@@ -7,9 +7,12 @@ export default {
   theme: {
     fontFamily: {
       Poppins: "Poppins",
+      Allura: "Allura",
     },
     extend: {
       colors: {
+        Write: "#bbf37a",
+        Bubble: "#567d8e",
         Teal: "#23D6A8",
         HummingBird: "#d1f1ee",
         yellow: "#DFC786",
@@ -25,6 +28,10 @@ export default {
           "50%": { transform: "translateX(-120%)" },
         },
       },
+      backgroundImage: {
+        'coachings': "url('./src/assets/Images/VanBubbles.png')",
+        
+      }
     },
     screens: {
       xs: "480px",

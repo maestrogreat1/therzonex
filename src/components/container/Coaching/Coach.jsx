@@ -9,15 +9,15 @@ const Coach = ({ image, category, title, participants, rating, price }) => {
       <div className="text-sm mt-2 font-bold">{title}</div>
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="bg-Solitude p-1 rounded-full">
+          {/* <div className="bg-Solitude p-1 rounded-full">
             <AiOutlineUser className="text-Teal"/>
-          </div>
+          </div> */}
           <div className="text-sm font-bold">{participants}</div>
         </div>
         <div className="flex items-center gap-2">
-            <div className="bg-Solitude p-1 rounded-full">
+            {/* <div className="bg-Solitude p-1 rounded-full">
                 <AiOutlineStar className="text-yellow"/>
-            </div>
+            </div> */}
             <div className="text-sm font-bold">{rating}</div>
         </div>
         <div className="text-sm font-bold">{price}</div>
