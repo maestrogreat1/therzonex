@@ -7,26 +7,27 @@ import relive from "../assets/Images/relive.png"
 const AboutPage = () => {
   return (
     <>
-      <div className="section" id="about">
-        <div className="grid md:grid-cols-2 gap-8 place-items-center bg-Bubble mb-4 mt-4 rounded-md">
+    <div className="relative grid md:grid-cols-2 gap-8 place-items-center bg-Bubble mb-4 rounded-mdgit branch">
           <div>
-            <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">
+            <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-1 mt-24">
               Deep Dive<br /> with{" "}
-              <span className="text-Write font-Allura text-8xl">me...</span>
+              <span className="text-Write font-Allura text-8xl sm: mt-0">me...</span>
             </div>
           </div>
-          <div className="rounded-lg">
+          <div className="rounded-lg mt-3">
               <img src={relive} alt="" className="p-4" />
             </div>
         </div>
+      <div className="section" id="about">
+        
         <div className="grid md:grid-cols-2 gap-8 place-items-center">
           <div className="border-[3px] border-solid border-Teal rounded-lg">
-            <img src={about} alt="" className="p-4" />
+            <img src={about} alt="" className="p-4 h-96 rounded-md"/>
           </div>
           <div>
-            <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">
+            <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5 border-l-8 border-Teal/50 py-2 pl-2">
               About Me <br /> and{" "}
-              <span className="text-Teal">my amazing journey</span>
+              <span className="text-Teal font-Allura">my amazing journey</span>
             </div>
             <p className="text-sm text-gray text leading-7 mb-4">
               My name is Vanessa Stanzel and I support people healing their
@@ -51,13 +52,13 @@ const AboutPage = () => {
         <div className="grid md:grid-cols-2 gap-8 place-items-center">
           <div>
             <div className="border-[3px] border-solid border-Teal rounded-lg ">
-              <img src={abouts} alt="" className="p-4" />
+              <img src={abouts} alt="" className="p-4 h-96" />
             </div>
           </div>
           <div>
-            <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5 ">
+            <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5 border-l-8 border-Teal/50 py-2 pl-2">
               About Me <br /> and{" "}
-              <span className="text-Teal">Dealing with it</span>
+              <span className="text-Teal font-Allura">Dealing with it</span>
             </div>
             <p className="text-sm text-gray text leading-7 mb-4 ">
               After a breakup in 2016, I found myself struggling with my mental

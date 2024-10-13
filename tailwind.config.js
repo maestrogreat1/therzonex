@@ -20,12 +20,12 @@ export default {
         gray: "#4b4B4C",
       },
       animation: {
-        slide: "slide 25s linear infinite",
+        slide: "slide 10s linear infinite",
       },
       keyframes: {
         slide: {
           "0%, 100%": { transform: "translateX(5%)" },
-          "50%": { transform: "translateX(-120%)" },
+          "50%": { transform: "translateX(-20%)" },
         },
       },
       backgroundImage: {

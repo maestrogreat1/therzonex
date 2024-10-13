@@ -7,12 +7,12 @@ const About = () => {
     <div className="section" >
       <div className="grid md:grid-cols-2 gap-8 place-items-center">
         <div className=" rounded-lg">
-          <img src={about} alt="" className="p-4 rounded-lg" />
+          <img src={about} alt="" className="p-4 rounded-lg h-96" />
         </div>
         <div>
-          <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">
+          <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5 border-l-8 border-Teal/50 py-2 pl-2">
             About Me <br /> and{" "}
-            <span className="text-Teal">my amazing journey</span>
+            <span className="text-Teal font-Allura">my amazing journey</span>
           </div>
           <p className="text-sm text-gray text leading-7 mb-4">
             My name is Vanessa Stanzel and I support people healing their subconscious wounds and choose a life that truly lights them up. <br />

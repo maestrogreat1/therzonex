@@ -86,17 +86,17 @@ const Navbar = ({ handleOrderPopup }) => {
               return <NavLink key={navLink.id} {...navLink} />;
             })} */}
             <ul className="sm:flex items-center gap-6 hidden ">
-              <li className="py-3 px-6 font-bold text-sm bg-Solitude  rounded-lg ">
-                <NavLink to="/" activeClassName="active">
+              <li className="py-3 px-6 font-bold text-sm bg-yellow rounded-lg ">
+                <NavLink to="/" >
                   Home
                 </NavLink>
               </li>
-              <li className="py-3 px-6 font-bold text-sm bg-Solitude  rounded-lg ">
+              <li className="py-3 px-6 font-bold text-sm bg-yellow  rounded-lg">
                 <NavLink to="/about" >
                   About Me
                 </NavLink>
               </li>
-              <li className="shadow-md py-3 px-6 font-bold text-sm bg-Solitude rounded-lg">
+              <li className="shadow-md py-3 px-6 font-bold text-sm bg-yellow rounded-lg">
                 <NavLink to="/deep" >
                   Inner Deep Dive
                 </NavLink>
@@ -113,7 +113,7 @@ const Navbar = ({ handleOrderPopup }) => {
               </li> */}
             </ul>
           </div>
-          <button className="py-3 px-6 font-bold text-sm bg-Solitude shadow-lg rounded-lg" onClick={() => {
+          <button className="py-3 px-6 font-bold text-sm bg-yellow shadow-lg rounded-lg" onClick={() => {
                   handleOrderPopup();
                 }}>
             Quantum Leap

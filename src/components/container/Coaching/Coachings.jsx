@@ -25,7 +25,10 @@ const Coachings = () => {
     <div className="section" id="coachings">
       <div className="text-center">
         <div className="sm:text-3xl text-2xl font-bold mb-1">
-          1:1 Inner Dive <span className="text-Teal">Deep</span>
+          1:1 Inner Dive <span className="text-Teal font-Allura text-5xl">Deep</span>
+        </div>
+        <div className="text-xl font-bold mt-10 place-items-center">
+          Does any of these ring true to you?
         </div>
       </div>
 
@@ -35,24 +38,22 @@ const Coachings = () => {
             return <Coach key={course.id} {...course} />;
           })}
         </div>
-        <div className="text-xl font-bold mt-10 place-items-center">
-          Does any of these ring true to you?
-        </div>
+       
 
-        <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto mt-12 bg-coachings bg-cover-gradient-to-r from-cyan-500 to-blue-500 rounded-lg w-full pl-2 pr-2 pb-2 ">
-          <p className="font-bold text-xl text-black mb-4 mt-10 mx-auto items-center justify-items-center">
+        <p className="text-sm justify-center place-content-center text-gray leading-7 max-w-[2000px] mx-auto mt-12  rounded-lg w-full pl-2 pr-2 pb-2 bg-cyan-600 h-96 bg-coachings bg-cover bg-center bg-blend-overlay">
+          <p className="font-bold text-2xl text-black mb-4 mt-10 mx-auto items-center justify-items-center ">
             {" "}
             What are the guaranteed safety measures
             <br /> for your inner Deep Dive?
           </p>
-          <p className="text-black">
+          <p className="text-black text-xl">
           <span className="font-bold text-lg text-black">Empathy:</span> Seeking help is a
           sign of strength. Personal growth can be challenging, but you want to
           face it alone. I provide a safe space to process emotions at your own
           pace. <br /> <br />
           </p>
           <Link to={`/deep`}>
-            <button className="py-3 px-6 text-sm border border-solid bg-yellow border-gray rounded-lg">
+            <button className="py-3 px-6 text-sm border border-solid bg-yellow border-gray rounded-lg font-bold">
               Learn More
             </button>
           </Link>

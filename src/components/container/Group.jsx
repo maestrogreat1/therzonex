@@ -10,7 +10,7 @@ const Group = () => {
       <div className="grid sm:grid-cols-2 place-items-center gap-8 bg-gradient-to-r from-cyan-500 to-Teal rounded-lg">
         <div className="pl-5">
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem]">
-            Book <span className="text-white">a session</span> <br /> with us
+            Book <span className="text-white font-Allura text-5xl">a session</span> <br /> with us
             today
           </div>
           <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto mt-8 ">
