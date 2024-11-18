@@ -2,7 +2,7 @@ import React from "react";
 import about from "../../assets/Images/VAnSunKisss.png";
 import { Link } from "react-router-dom";
 
-import abouts from "../../assets/Images/VAnTreeLiess.png";
+// import abouts from "../../assets/Images/VAnTreeLiess.png";
 
 const About = () => {
   return (
