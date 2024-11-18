@@ -24,9 +24,9 @@ const Coachings = () => {
   return (
     <div className="section" id="coachings">
       <div className="text-center">
-        <div className="sm:text-3xl text-2xl font-bold mb-1">
+        <h2 className="text-5xl mb-1 font-primary">
           1:1 Inner Dive <span className="text-Teal font-Allura text-5xl">Deep</span>
-        </div>
+        </h2>
         <div className="text-xl font-bold mt-10 place-items-center">
           Does any of these ring true to you?
         </div>
@@ -40,7 +40,7 @@ const Coachings = () => {
         </div>
        
 
-        <p className="text-sm justify-center place-content-center text-gray leading-7 max-w-[2000px] mx-auto mt-12  rounded-lg w-full pl-2 pr-2 pb-2 bg-cyan-600 h-96 bg-coachings bg-cover bg-center bg-blend-overlay">
+        {/* <p className="text-sm justify-center place-content-center text-gray leading-7 max-w-[2000px] mx-auto mt-12  rounded-lg w-full pl-2 pr-2 pb-2 bg-cyan-600 h-96 bg-coachings bg-cover bg-center bg-blend-overlay">
           <p className="font-bold text-2xl text-black mb-4 mt-10 mx-auto items-center justify-items-center ">
             {" "}
             What are the guaranteed safety measures
@@ -57,7 +57,7 @@ const Coachings = () => {
               Learn More
             </button>
           </Link>
-        </p>
+        </p> */}
       </div>
       {/* <Link to={`/deep`}>
         <motion.div

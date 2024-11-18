@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 // import { navLinks } from "../../Data";
 import { HiMenuAlt1, HiX } from "react-icons/hi";
+import { FaCaretDown } from "react-icons/fa";
 import MobileNavLinks from "./MobileNavLinks";
 // import NavLink from "./NavLink";
 import { motion } from "framer-motion";
@@ -85,18 +86,18 @@ const Navbar = ({ handleOrderPopup }) => {
             {/* {NavbarLinks.map((navLink) => {
               return <NavLink key={navLink.id} {...navLink} />;
             })} */}
-            <ul className="sm:flex items-center gap-6 hidden ">
-              <li className="py-3 px-6 font-bold text-sm bg-yellow rounded-lg ">
+            <ul className="text-white sm:flex items-center gap-6 hidden ">
+              <li className="py-3 px-6 font-bold text-sm">
                 <NavLink to="/" >
                   Home
                 </NavLink>
               </li>
-              <li className="py-3 px-6 font-bold text-sm bg-yellow  rounded-lg">
+              <li className="py-3 px-6 font-bold text-sm">
                 <NavLink to="/about" >
                   About Me
                 </NavLink>
               </li>
-              <li className="shadow-md py-3 px-6 font-bold text-sm bg-yellow rounded-lg">
+              <li className="shadow-md py-3 px-6 font-bold text-sm">
                 <NavLink to="/deep" >
                   Inner Deep Dive
                 </NavLink>
@@ -113,11 +114,36 @@ const Navbar = ({ handleOrderPopup }) => {
               </li> */}
             </ul>
           </div>
-          <button className="py-3 px-6 font-bold text-sm bg-yellow shadow-lg rounded-lg" onClick={() => {
+          {/* <button className="py-3 px-6 font-bold text-sm bg-yellow shadow-lg rounded-lg" onClick={() => {
                   handleOrderPopup();
                 }}>
             Quantum Leap
-          </button>
+          </button> */}
+          {/* <div className="relative cursor-pointer list-none">
+                  <a
+                    href="/#home"
+                    className="flex h-[72px] items-center gap-[2px]"
+                  >
+                    Quick Links{" "}
+                    <span>
+                      <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
+                    </span>
+                  </a>
+                  <div className="absolute -left-9 z-[9999] hidden w-[150px] rounded-md bg-white p-2 text-black group-hover:block shadow-md ">
+                    <ul className="space-y-3">
+                      {NavbarLinks.map((data) => (
+                        <li key={data.name}>
+                          <a
+                            className="inline-block w-full rounded-md p-2 hover:bg-primary/20"
+                            href={data.link}
+                          >
+                            {data.name}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div> */}
           {toggle && (
             <motion.div
               initial={{ x: -500, opacity: 0 }}

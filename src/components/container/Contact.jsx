@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className='section' id='contact'>
       <div className='text-center max-w-[600px] mx-auto'>
-        <div className='sm:text-3xl text-2xl font-bold mb-5'>Subscribe to our Newsletter</div>
+        <h2 className='font-primary text-5xl mb-5'>Subscribe to our Newsletter</h2>
         <p className='text:sm leading-7 text-gray'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aspernatur perspiciatis laborum nesciunt perferendis odio reprehenderit quo consequuntur distinctio delectus animi, doloribus nobis facere dignissimos illo nulla aut dicta iure?
         </p>

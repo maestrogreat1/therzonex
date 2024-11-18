@@ -26,24 +26,21 @@ const Hero = ({ handleOrderPopup }) => {
   // };
   return (
     <div className="section" id="home">
-      <div className="flex items-center justify-center gap-8 md:mt-12">
+      <div className="flex items-center justify-center gap-8 mt-40 sm:mt-40">
         <div>
-          <div className="font-bold text-xl text-white mb-10 text-center">
+          {/* <div className="font-bold text-xl text-white mb-10 text-center">
             {" "}
             Take a deep dive into your inner realms with me and
             change your life
-          </div>
-          <div className="flex items-center text-center text-white justify-center sm:text-[2.5rem] text-[1.825rem] font-bold md:mb-6">
-            I'm Vanessa so happy you are here
+          </div> */}
+          <div className="font-primary flex items-center text-center text-white justify-center sm:text-[2.5rem] text-[1.825rem] font-bold md:mb-6">
+            I'm here to courageously deep dive with you to look at your
+            subconscious patterns so you can live the life of your dreams
           </div>
           <p className="text-center text-lg leading-7 text-white mb-8">
-            I'm here to courageously deep dive with you to heal your
-            subconscious wounds, enabling you to live life on your own terms and
-            positively influence others. What lights me up? Helping
-            people overcome their fears and blockages and choose what truly
-            excites them!
+            Together, we will face your fears and blockages in your time and create a vision for your life that truly lights you up.
           </p>
-          <div className="flex items-center justify-center mt-6 mb-8">
+          {/* <div className="flex items-center justify-center mt-6 mb-8">
             <Link to={`/care`}>
               <button className="md:w-60 px-6 py-3 font-bold text-white bg-Teal rounded-lg mr-4 text-sm">
                 Get Started
@@ -54,20 +51,20 @@ const Hero = ({ handleOrderPopup }) => {
                 About Me
               </button>
             </Link>
-          </div>
+          </div> */}
         </div>
         {/* <div className="border-[3px] border-solid border-Teal rounded-lg">
           <img className="h-[500px]" src={hero} alt="" />
         </div> */}
       </div>
-      <div className="mt-3">
+      {/* <div className="mt-3">
         <p className="text-center text-xl text-white">
           We Offer you the best services using{" "}
           <span className="text-white">
             leading industry best practices and standards
           </span>{" "}
         </p>
-      </div>
+      </div> */}
       {/* <motion.div 
       variants={container}
       initial= "hidden"

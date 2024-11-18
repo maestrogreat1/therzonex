@@ -8,12 +8,15 @@ export default {
     fontFamily: {
       Poppins: "Poppins",
       Allura: "Allura",
+      primary: 'DM Serif Display',
+      secondary: 'Jost',
+      sans: 'Open Sans',
     },
     extend: {
       colors: {
-        Write: "#bbf37a",
+        White: "#e7e5d9",
         Bubble: "#567d8e",
-        Teal: "#23D6A8",
+        Teal: "#31658d",
         HummingBird: "#d1f1ee",
         yellow: "#DFC786",
         Solitude: "#e9e9ea",
