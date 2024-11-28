@@ -75,7 +75,7 @@ const Navbar = ({ handleOrderPopup }) => {
           {/* Mobile Hamburger icon */}
           <div className="flex items-center gap-4">
             <HiMenuAlt1
-              className="text-3xl sm:hidden cursor-pointer"
+              className="text-3xl text-white sm:hidden cursor-pointer"
               onClick={() => setToggle(true)}
             />
             <div className="text-xl text-Teal uppercase tracking-wide font-bold">
@@ -87,12 +87,12 @@ const Navbar = ({ handleOrderPopup }) => {
               return <NavLink key={navLink.id} {...navLink} />;
             })} */}
             <ul className="text-white sm:flex items-center gap-6 hidden ">
-              <li className="py-3 px-6 font-bold text-sm">
+              <li className="shadow-md py-3 px-6 font-bold text-sm">
                 <NavLink to="/" >
                   Home
                 </NavLink>
               </li>
-              <li className="py-3 px-6 font-bold text-sm">
+              <li className="shadow-md py-3 px-6 font-bold text-sm">
                 <NavLink to="/about" >
                   About Me
                 </NavLink>
@@ -102,16 +102,16 @@ const Navbar = ({ handleOrderPopup }) => {
                   Inner Deep Dive
                 </NavLink>
               </li>
-              {/* <li className="py-3 px-6 font-bold text-sm bg-Solitude  rounded-lg">
+              <li className="shadow-md py-3 px-6 font-bold text-sm ">
                 <NavLink to="/care" >
                  Sessions
                 </NavLink>
               </li>
-              <li className="py-3 px-6 font-bold text-sm bg-Solitude rounded-lg">
+              <li className="shadow-md py-3 px-6 font-bold text-sm">
                 <NavLink to="/contact" >
                   Contact
                 </NavLink>
-              </li> */}
+              </li>
             </ul>
           </div>
           {/* <button className="py-3 px-6 font-bold text-sm bg-yellow shadow-lg rounded-lg" onClick={() => {

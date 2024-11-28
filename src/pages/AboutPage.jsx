@@ -5,16 +5,16 @@ import aboutx from "../assets/Images/VanSitWhites.png";
 import { AiFillPhone } from "react-icons/ai";
 
 import { Link } from "react-router-dom";
-import relive from "../assets/Images/relive.png";
+import relive from "../assets/Images/bls.png";
 
 const AboutPage = () => {
   return (
     <>
-      <div className="relative grid md:grid-cols-2 gap-8 place-items-center bg-Bubble mb-4 rounded-mdgit branch">
+      <div className="relative grid md:grid-cols-2 gap-8 place-items-center bg-about mb-4 rounded-md">
         <div>
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-1 mt-24">
-            Deep Dive
-            <br /> with{" "}
+            Things to know
+            <br /> about{" "}
             <span className="text-Write font-Allura text-8xl sm: mt-0">
               me...
             </span>
@@ -106,7 +106,7 @@ const AboutPage = () => {
                   my amazing journey
                 </span>
               </h2>
-              <p className="font-secondary">
+              <p className="font-secondary text-xl">
                 My name is Vanessa Stanzel and I support people healing their
                 subconscious wounds and choose a life that truly lights them up.
                 <br />
@@ -139,7 +139,7 @@ const AboutPage = () => {
                 About Me <br /> and{" "}
                 <span className="text-Teal font-Allura">Dealing with it</span>
               </h2>
-              <p className="font-secondary">
+              <p className="font-secondary textx">
                 After a breakup in 2016, I found myself struggling with my
                 mental health. I couldn't understand why it hitme so hard, so I
                 began searching for answers. For the first time, I became aware

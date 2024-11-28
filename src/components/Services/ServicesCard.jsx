@@ -27,7 +27,7 @@ const ServicesCard = ({ img, title, description, price, type, handleOrderPopup }
             </div>
           </div>
           <Link to={`/contact`}>
-          <button className="py-3 px-6 text-sm border border-solid bg-yellow border-gray rounded-lg">Learn More</button>
+          <button className="py-3 px-6 text-sm border border-solid bg-yellow border-gray rounded-lg">Get Started</button>
          </Link>
         </div>
       </div>

@@ -17,18 +17,10 @@ const Home = () => {
       };
   return (
     <div>
-      <div className="h-[700px] relative bg-gradient-to-tr from-purple-900 to-green-700">
-          <video
-            autoPlay
-            loop
-            muted
-            controls={false}
-            className="mix-blend-overlay absolute right-0 top-0 h-[700px] w-full object-cover "
-          >
-            <source src={video} type="video/mp4" />
-          </video>
-          <Hero />
-        </div>
+      {/* <div className="h-[700px] relative ">
+          
+        </div> */}
+        <Hero />
       <About handleOrderPopup={handleOrderPopup}/>
       <Coachings />
       {/* <Group /> */}

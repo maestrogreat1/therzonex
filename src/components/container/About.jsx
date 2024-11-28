@@ -36,7 +36,7 @@ const About = () => {
                   my amazing journey
                 </span>
               </h2>
-              <p className="font-secondary">
+              <p className="text-xl font-secondary">
                 My name is Vanessa Stanzel and I support people healing their
                 subconscious wounds and choose a life that truly lights them up.
                 <br />

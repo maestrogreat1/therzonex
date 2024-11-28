@@ -25,7 +25,7 @@ const Coachings = () => {
     <div className="section" id="coachings">
       <div className="text-center">
         <h2 className="text-5xl mb-1 font-primary">
-          1:1 Inner Dive <span className="text-Teal font-Allura text-5xl">Deep</span>
+          1:1 Inner Deep <span className="text-Teal font-Allura text-5xl">Dive</span>
         </h2>
         <div className="text-xl font-bold mt-10 place-items-center">
           Does any of these ring true to you?

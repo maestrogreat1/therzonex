@@ -11,10 +11,10 @@ const ContactMain = () => {
               Get in touch
             </div>
             <p className="text:sm leading-7 text-gray">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cupiditate aspernatur perspiciatis laborum nesciunt perferendis
-              odio reprehenderit quo consequuntur distinctio delectus animi,
-              doloribus nobis facere dignissimos illo nulla aut dicta iure?
+              We've have carefully and professionally selected plans,
+              that help you reach your required goals in record time.
+              Our aim is to help you understand your subconscious patterns
+              and guarantee you a life of your dreams.
             </p>
           </div>
           <motion.form
@@ -37,7 +37,7 @@ const ContactMain = () => {
                 required
                 className="w-full rounded border border-green-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
               />
-                {/* <label className="text-sm text-gray text leading-7 mr-4" htmlFor="text">Pick a Question</label> */}
+                <label className="text-sm text-gray text leading-7 mr-4" htmlFor="text">Pick a Question</label>
               <select required className="rounded border-[1px] shadow border-green-300 bg-white top-[50px] w-[300px]" name="" id="text">
                 <option className="cursor-pointer hover:bg-Solitude px-4" value="text">What bothers you today?</option>
                 <option className="cursor-pointer hover:bg-Solitude px-4" value="text">What are your needs?</option>

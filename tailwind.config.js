@@ -15,6 +15,7 @@ export default {
     extend: {
       colors: {
         White: "#e7e5d9",
+        about: "#31658d",
         Bubble: "#567d8e",
         Teal: "#31658d",
         HummingBird: "#d1f1ee",
@@ -33,7 +34,9 @@ export default {
       },
       backgroundImage: {
         'coachings': "url('./src/assets/Images/VanBubbles.png')",
-        
+        'hero': "url('./src/assets/Images/herobag.png')",
+        'session': "url('./src/assets/Images/vansess.png')",
+        'contact': "url('./src/assets/Images/vancon.png')",
       }
     },
     screens: {

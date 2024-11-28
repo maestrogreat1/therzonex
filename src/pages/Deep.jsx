@@ -151,14 +151,14 @@ const Deep = () => {
                 1:1 <span className="text-Teal">Deep Dive</span>
               </h2>
               <p className="font-secondary">
-                <h3 className="h3">Empathy:</h3>
-                <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto mt-2">
+                <h3 className="h3 mb-0">Empathy:</h3>
+                <p className=" text-xl text-gray leading-7 max-w-[700px] mx-auto mt-2 mb-8">
                   Seeking help is a sign of strength. Personal growth can be
                   challenging, but you wont face it alone. I provide a safe
                   space to process emotions at your own pace.
                 </p>
                 <h3 className="h3 mt-4">Authenticity:</h3>
-                <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto mt-2">
+                <p className=" text-xl text-gray leading-7 max-w-[700px] mx-auto mt-2 mb-10">
                   I offer a non-judgemental, supportive environment where you
                   can address your concerns freely. Being true to myself and
                   striving to be transparent in all dealings is a priority to
@@ -167,29 +167,29 @@ const Deep = () => {
                   questions.
                 </p>
                 <h3 className="h3 mt-4">Empowerment:</h3>
-                <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto mt-2">
+                <p className=" text-xl text-gray leading-7 max-w-[700px] mx-auto mt-2 mb-10">
                   I focus on building your independence and resilience,
                   equipping you on your journey to a healthier, more fulfilling
                   life.
                 </p>
                 <h3 className="h3 mt-4">Uniqueness:</h3>
-                <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto mt-2">
+                <p className=" text-xl text-gray leading-7 max-w-[700px] mx-auto mt-2 mb-10">
                   My integrative approach takes your individual needs into
                   account by combining different therapeutic methods to create a
                   personalized treatment for you.
                 </p>
                 <h3 className="h3 mt-4">High Quality:</h3>
-                <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto mt-8">
+                <p className=" text-xl text-gray leading-7 max-w-[700px] mx-auto mt-2 mb-10">
                   I continually pursue personal and professional development to
                   provide top-quality care.
                 </p>
                 <h3 className="h3 mt-4">Strategic Thinking::</h3>
-                <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto mt-2">
+                <p className=" text-xl text-gray leading-7 max-w-[700px] mx-auto mt-2 mb-10">
                   I will support you with structured guidance and actionable
                   insights.
                 </p>
                 <h3 className="h3 mt-4">Flexibility:</h3>
-                <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto mt-2">
+                <p className=" text-xl text-gray leading-7 max-w-[700px] mx-auto mt-2 mb-10">
                   I offer flexible scheduling options to fit your busy life.
                   Together we will create a coaching plan that works for you.
                 </p>

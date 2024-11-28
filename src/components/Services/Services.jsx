@@ -4,6 +4,8 @@ import Img2 from "../../assets/Images/VanWaterSits.png";
 import Img3 from "../../assets/Images/VanSeatWhites.png";
 import { motion } from "framer-motion";
 import ServicesCard from "./ServicesCard";
+import Form from "../container/Form";
+import relive from "../../assets/Images/bls.png";
 
 const ServicesData = [
   {
@@ -51,7 +53,10 @@ const Services = ({ handleOrderPopup }) => {
 //   };
   return (
     <>
+    
       <div className="dark:bg-gray-900 dark:text-white bg-gray-50 py-10">
+      
+      {/* <Form /> */}
         <div>
           <div className=" section my-8 border-l-8 border-Teal/50 py-2 pl-2 font-bold sm:text-[1.875rem] text-[1.5rem] mb-5 place-items-center align-middle justify-center">
             Sessions Tailored Just For You
