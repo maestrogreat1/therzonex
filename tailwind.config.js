@@ -33,7 +33,7 @@ export default {
         },
       },
       backgroundImage: {
-        'coachings': "url('./src/assets/Images/VanBubbles.png')",
+        'coachings': "url('../src/assets/Images/VanBubbles.png')",
         'hero': "url('./src/assets/Images/herobag.png')",
         'session': "url('./src/assets/Images/vansess.png')",
         'contact': "url('./src/assets/Images/vancon.png')",
