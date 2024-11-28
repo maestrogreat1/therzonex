@@ -1,20 +1,22 @@
-.hero {
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('../../assets/Images/herobag.png');
-    background-size: cover;
-    background-position: center;
+.contact {
+    /* width: 100vw;
+    min-height: 100vh; */
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('../assets/Images/vancon.png');
+    /* background-size: cover;
+    background-position: center; */
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
+
 
 /* media query */
 
 @media screen and (max-width: 850px) {
 
-    .hero{
+    .contact{
         height: 80vh;
     }
 

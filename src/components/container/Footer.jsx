@@ -19,10 +19,10 @@ const Footer = () => {
         <div>
           <div className="font-bold mb-6">Get Started</div>
           <p className="text-sm leading-7">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-            totam, nemo sed illo nulla id voluptates ut culpa eveniet ipsum
-            provident nihil molestias aut fuga aperiam dicta nesciunt quibusdam
-            ad.
+            Take advantage of our carefully and professionally designed programs,
+            put together wit the sole aim of making your experience with us an amazing
+            journey, filled with fulfilling moments, satisfying solutions and beautiful
+            story.
           </p>
         </div>
         <div>
