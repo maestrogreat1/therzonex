@@ -79,7 +79,7 @@ const Navbar = ({ handleOrderPopup }) => {
               onClick={() => setToggle(true)}
             />
             <div className="text-xl text-Teal uppercase tracking-wide font-bold">
-              <img className="h-28" src={logo} alt="" />
+              <img className="h-20 w-16" src={logo} alt="" />
             </div>
           </div>
           <div>
