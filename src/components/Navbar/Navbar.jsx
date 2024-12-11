@@ -6,7 +6,7 @@ import MobileNavLinks from "./MobileNavLinks";
 // import NavLink from "./NavLink";
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/Images/thelog.png"
+import logo from "../../assets/Images/logrev.png"
 
 
 
@@ -79,7 +79,7 @@ const Navbar = ({ handleOrderPopup }) => {
               onClick={() => setToggle(true)}
             />
             <div className="text-xl text-Teal uppercase tracking-wide font-bold">
-              <img className="h-20" src={logo} alt="" />
+              <img className="h-28" src={logo} alt="" />
             </div>
           </div>
           <div>

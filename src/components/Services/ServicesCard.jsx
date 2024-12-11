@@ -26,9 +26,9 @@ const ServicesCard = ({ img, title, description, price, type, handleOrderPopup }
               <p className="text-2xl font-bold">&euro;{price}</p>
             </div>
           </div>
-          <Link to={`/contact`}>
+          {/* <Link to={`/contact`}>
           <button className="py-3 px-6 text-sm border border-solid bg-yellow border-gray rounded-lg">Get Started</button>
-         </Link>
+         </Link> */}
         </div>
       </div>
     </>
