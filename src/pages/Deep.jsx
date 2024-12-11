@@ -26,7 +26,8 @@ const Deep = () => {
       </div> */}
       <div className="relative grid md:grid-cols-2 gap-8 place-items-center bg-Bubble mb-4 rounded-mdgit branch">
         <div>
-          <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-1 mt-24">
+          <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-1 mt-40
+          ">
             Deep Dive
             <br /> with{" "}
             <span className="text-Write font-Allura text-8xl sm: mt-0">

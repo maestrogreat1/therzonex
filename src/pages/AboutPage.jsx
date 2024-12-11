@@ -12,7 +12,7 @@ const AboutPage = () => {
     <>
       <div className="relative grid md:grid-cols-2 gap-8 place-items-center bg-about mb-4 rounded-md">
         <div>
-          <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-1 mt-24">
+          <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-1 mt-40">
             Things to know
             <br /> about{" "}
             <span className="text-Write font-Allura text-8xl sm: mt-0">

@@ -6,7 +6,7 @@ import MobileNavLinks from "./MobileNavLinks";
 // import NavLink from "./NavLink";
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/Images/logrev.png"
+import logo from "../../assets/Images/potlog.png"
 
 
 
