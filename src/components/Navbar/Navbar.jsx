@@ -64,7 +64,7 @@ const Navbar = ({ handleOrderPopup }) => {
     <div
       className={`${
         active ? "shadow-lg bg-Teal mb-10" : ""
-      } fixed w-full top-0 left-0 z-20`}
+      } fixed w-full top-0 left-0 z-20 bg-Teal`}
     >
       <div>
         <div
