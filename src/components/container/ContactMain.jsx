@@ -7,7 +7,7 @@ const ContactMain = () => {
       <div className="section" id="contact">
         <div className="grid md:grid-cols-2 gap-8 place-items-center">
           <div className="text-center max-w-[600px] mx-auto">
-            <div className="sm:text-3xl text-2xl font-bold mb-5">
+            <div className="md:mt-[-400px] sm:text-3xl text-2xl font-bold mb-5">
               Get in touch
             </div>
             <p className="text:sm leading-7 text-gray">
@@ -45,7 +45,7 @@ const ContactMain = () => {
               </select> */}
 
               <label
-                className="text-sm text-gray text leading-7 mr-4"
+                className="text-xl text-gray text leading-7 mr-4"
                 htmlFor="text"
               >
                 What bothers you today?
@@ -61,7 +61,7 @@ const ContactMain = () => {
               ></textarea>
 
               <label
-                className="text-sm text-gray text leading-7 mr-4"
+                className="text-xl text-gray text leading-7 mr-4"
                 htmlFor="text"
               >
                 What are your needs?
@@ -77,7 +77,7 @@ const ContactMain = () => {
               ></textarea>
 
               <label
-                className="text-sm text-gray text leading-7 mr-4"
+                className="text-xl text-gray text leading-7 mr-4"
                 htmlFor="text"
               >
                 What brings you peace?
@@ -93,7 +93,7 @@ const ContactMain = () => {
               ></textarea>
 
               <label
-                className="text-sm text-gray text leading-7 mr-4"
+                className="text-xl text-gray text leading-7 mr-4"
                 htmlFor="text"
               >
                 What inspires you?
@@ -109,7 +109,7 @@ const ContactMain = () => {
               ></textarea>
 
               <label
-                className="text-sm text-gray text leading-7 mr-4"
+                className="text-xl text-gray text leading-7 mr-4"
                 htmlFor="text"
               >
                 What are you here?

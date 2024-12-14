@@ -116,7 +116,7 @@ const Services = ({ handleOrderPopup }) => {
               </select> */}
 
               <label
-                className="text-sm text-gray text leading-7 mr-4"
+                className="text-xl text-gray text leading-7 mr-4"
                 htmlFor="text"
               >
                 Which of the plans interest you?
