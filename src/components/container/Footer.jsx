@@ -27,7 +27,7 @@ const Footer = () => {
             story.
           </p> */}
           <div className="text-xl text-Teal uppercase tracking-wide font-bold">
-              <img className="md: h-full sm:h-20 w-16" src={logo} alt="" />
+              <img className="md: h-full sm:h-36 w-36" src={logo} alt="" />
             </div>
         </div>
         <div>
@@ -69,7 +69,7 @@ const Footer = () => {
             <a href="https://www.instagram.com/vanessa_stanzel?igsh=NzI0aTZnNXVyeHY5" className="hover:scale-110 text-xl">
               <BsInstagram />
             </a>
-            <a href="" className="hover:scale-110 text-xl">
+            <a href="https://www.t.me/vanessa_stanzel" className="hover:scale-110 text-xl">
             <FaTelegramPlane />
             </a>
             {/* <a href="" className="hover:scale-110 text-xl">
