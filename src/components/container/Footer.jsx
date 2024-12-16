@@ -19,6 +19,7 @@ const Footer = () => {
     >
       <div className="grid md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-3 grid-cols-1 place-items-start gap-8 text-white">
         <div>
+          
           {/* <div className="font-bold mb-6">Get Started</div>
           <p className="text-sm leading-7">
             Take advantage of our carefully and professionally designed programs,
@@ -26,9 +27,10 @@ const Footer = () => {
             journey, filled with fulfilling moments, satisfying solutions and beautiful
             story.
           </p> */}
-          <div className="text-xl text-Teal uppercase tracking-wide font-bold">
+          <div className="text-xl text-Teal uppercase tracking-wide font-bold mt-[-40px]">
               <img className="md: h-full sm:h-36 w-36" src={logo} alt="" />
             </div>
+            
         </div>
         <div>
           <div className="font-bold mb-6">Services</div>
