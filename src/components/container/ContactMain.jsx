@@ -112,7 +112,7 @@ const ContactMain = () => {
                 className="text-xl text-gray text leading-7 mr-4"
                 htmlFor="text"
               >
-                What are you here?
+                Why are you here?
               </label>
               <textarea
                 required

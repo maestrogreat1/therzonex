@@ -4,6 +4,8 @@
     /* background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('../assets/Images/ontreex.png'); */
     background: url('../assets/Images/ontreex.png');
     background-size: cover;
+    top: 20px;
+    margin-top: 0px;
     background-position: center;
     color: white;
     display: flex;

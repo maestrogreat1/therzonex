@@ -12,7 +12,7 @@ const ServicesCard = ({ img, title, description, price, type, handleOrderPopup }
           <img
             src={img}
             alt="No image"
-            className="mx-auto h-[220px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+            className="rounded-bl-[290px] rounded-tr-[290px] mx-auto h-[620px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
           />
         </div>
         <div className="space-y-2 p-3">

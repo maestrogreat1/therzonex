@@ -21,7 +21,7 @@ const AboutPage = () => {
           </div>
         </div>
         <div className="rounded-lg mt-3">
-          <img src={relive} alt="" className="p-4" />
+          <img src={relive} alt="" className="p-4 md:mt-20" />
         </div>
       </div>
       {/* <div className="section" id="about">
