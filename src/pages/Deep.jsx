@@ -36,7 +36,7 @@ const Deep = () => {
           </div>
         </div>
         <div className="rounded-lg mt-3">
-          <img src={relive} alt="" className="p-4 md:mt-[-80px]" />
+          <img src={relive} alt="" className="h-[1000px] p-4 md:mt-[-40px]" />
         </div>
       </div>
       {/* <div className="section" id="">
