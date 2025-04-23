@@ -2,7 +2,7 @@ import React from "react";
 import NatureVid from "../assets/video/main.mp4";
 import dive from "../assets/Images/VanSitWhites.png";
 import { Link } from "react-router-dom";
-import relive from "../assets/Images/hwp.png";
+import relive from "../assets/Images/deepest.jpg";
 import Accordion from "../components/container/Accordion";
 import abouts from "../assets/Images/VanTreeLiess.png";
 import aboutx from "../assets/Images/VanSitWhites.png";
@@ -26,7 +26,7 @@ const Deep = () => {
       </div> */}
       <div className="relative grid md:grid-cols-2 gap-8 place-items-center bg-Teal mb-4 rounded-mdgit branch">
         <div>
-          <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-1 mt-40
+          <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-[-30px] mt-40
           ">
             Deep Dive
             <br /> with{" "}
@@ -36,7 +36,7 @@ const Deep = () => {
           </div>
         </div>
         <div className="rounded-lg mt-3">
-          <img src={relive} alt="" className="h-[1000px] p-4 md:mt-[-40px]" />
+          <img src={relive} alt="" className="p-4 md:h-[700px] md:mt-[110px]  " />
         </div>
       </div>
       {/* <div className="section" id="">
