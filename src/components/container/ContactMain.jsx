@@ -1,7 +1,34 @@
-import React from "react";
+import React, { useRef } from 'react';
 import { motion } from "framer-motion";
+import emailjs from '@emailjs/browser';
+import toast from "react-hot-toast";
 
 const ContactMain = () => {
+
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_ksd83eq', 'template_y1trnrg', form.current, {
+        publicKey: 'ScgA-FjXzl2RIIhhy',
+      })
+      .then(
+        () => {
+          console.log('Message sent successfully!');
+          toast.success("Message sent successfully!");
+          e.target.reset();
+          
+        },
+        (error) => {
+          console.log('Please try again...', error.text);
+          toast.error('Please try again...')
+        },
+      );
+  };
+
+
   return (
     <>
       <div className="section" id="contact">
@@ -21,17 +48,21 @@ const ContactMain = () => {
             transition={{ duration: 0.3 }}
             className="mt-5 border py-5 px-5 border-green-200 shadow"
             action=""
+            ref={form} 
+            onSubmit={sendEmail}
           >
             <div className="mt-4">
               <input
                 type="text"
                 placeholder="Name"
+                name='user_name'
                 required
                 className="w-full rounded border border-green-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
               />
               <input
                 type="email"
-                placeholder="email"
+                placeholder="Email"
+                name='user_email'
                 required
                 className="w-full rounded border border-green-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
               />
@@ -53,7 +84,7 @@ const ContactMain = () => {
               <textarea
                 required
                 placeholder="Tell us your answer"
-                name="message"
+                name="message_1"
                 id=""
                 cols="30"
                 rows="3"
@@ -69,7 +100,7 @@ const ContactMain = () => {
               <textarea
                 required
                 placeholder="Tell us your answer"
-                name="message"
+                name="message_2"
                 id=""
                 cols="30"
                 rows="3"
@@ -85,7 +116,7 @@ const ContactMain = () => {
               <textarea
                 required
                 placeholder="Tell us your answer"
-                name="message"
+                name="message_3"
                 id=""
                 cols="30"
                 rows="3"
@@ -101,7 +132,7 @@ const ContactMain = () => {
               <textarea
                 required
                 placeholder="Tell us your answer"
-                name="message"
+                name="message_4"
                 id=""
                 cols="30"
                 rows="3"
@@ -117,7 +148,7 @@ const ContactMain = () => {
               <textarea
                 required
                 placeholder="Tell us your answer"
-                name="message"
+                name="message_5"
                 id=""
                 cols="30"
                 rows="3"
@@ -126,7 +157,7 @@ const ContactMain = () => {
 
               <div>
                 <div className="flex justify-center">
-                  <button className="bg-Teal hover:scale-105 duration-200 text-black py-1 px-4 rounded-full  mt-4">
+                  <button type="submit" value="Send"  className="bg-Teal hover:scale-105 duration-200 text-black py-1 px-4 rounded-full  mt-4">
                     Submit
                   </button>
                 </div>

@@ -7,6 +7,7 @@ import Deep from "./pages/Deep";
 import Sessions from "./pages/Sessions";
 import Contact from "./components/container/Contact";
 import ContactPage from "./pages/ContactPage";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
     //   <Footer />
       
     // </div>
+    
     <BrowserRouter className="font-Poppins bg-Solitude">
+      <Toaster />
     <Routes>
       <Route path="" element={<Layout />}>
         <Route index element={<Home />} />

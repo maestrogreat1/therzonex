@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from 'react';
 import Img1 from "../../assets//Images/VanSeatSmiles.png";
 import Img2 from "../../assets/Images/VanWaterSits.png";
 import Img3 from "../../assets/Images/VanSeatWhites.png";
@@ -6,6 +6,8 @@ import { motion } from "framer-motion";
 import ServicesCard from "./ServicesCard";
 import Form from "../container/Form";
 import relive from "../../assets/Images/bls.png";
+import emailjs from '@emailjs/browser';
+import toast from "react-hot-toast";
 
 const ServicesData = [
   {
@@ -46,6 +48,29 @@ const Services = ({ handleOrderPopup }) => {
         staggerChildren: 0.1,
       },
     },
+  };
+
+      const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_52hjxrk', 'template_vg9nsr6', form.current, {
+        publicKey: 'V1QdyOpzFR8ULIUb5',
+      })
+      .then(
+        () => {
+          console.log('Message sent successfully!');
+          toast.success("Message sent successfully!");
+          e.target.reset();
+          
+        },
+        (error) => {
+          console.log('Please try again...', error.text);
+          toast.error('Please try again...')
+        },
+      );
   };
 //   const item = {
 //     hidden: { y: 20, opacity: 0 },
@@ -92,17 +117,21 @@ const Services = ({ handleOrderPopup }) => {
             transition={{ duration: 0.3 }}
             className="mt-5 border py-5 px-5 border-green-200 shadow"
             action=""
+            ref={form} 
+            onSubmit={sendEmail}
           >
             <div className="mt-4">
               <input
                 type="text"
                 placeholder="Name"
+                name='name'
                 required
                 className="w-full rounded border border-green-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
               />
               <input
                 type="email"
                 placeholder="email"
+                name='email'
                 required
                 className="w-full rounded border border-green-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
               />
